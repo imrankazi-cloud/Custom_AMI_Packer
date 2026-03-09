@@ -1,1 +1,1 @@
-Create Custom Packer image.
+Create Custom Packer image.Automatically deploy
