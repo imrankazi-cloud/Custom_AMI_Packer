@@ -1,11 +1,12 @@
 packer {
   required_plugins {
     amazon = {
-      version = "~> 1.7.1"
       source  = "github.com/hashicorp/amazon"
+      version = ">= 1.7.1"
     }
   }
 }
+
 
 source "amazon-ebs" "ubuntu" {
   ami_name      = var.ami_name
